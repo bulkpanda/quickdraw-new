@@ -64,3 +64,6 @@ def upload_canvas():
     os.makedirs(f'{datasetPath}/{className}/coordinates', exist_ok=True)
     np.save(f'{datasetPath}/{className}/coordinates/{fname}.npy', coordinates)
     return "Got the image " + className    
+
+if __name__=="__main__":
+    app.run(host='0.0.0.0',port=5000) 
