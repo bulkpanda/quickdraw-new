@@ -6,7 +6,7 @@ Creating a webpage using angular.
 
 # Clone the repository
 
-git clone --branch master https://github.com/bulkpanda/quickdraw
+git clone --branch master https://github.com/bulkpanda/quickdraw-new
 
 # For installation of required packages
 
@@ -14,9 +14,12 @@ pip install -r requirements.txt
 
 # Webpage
 
-The built files from 'ng build --prod' are located in docs, can use them directly for deployment. <br>
+The built files from 'ng build --prod' are located in dist/quickdraw, can use them directly for deployment. <br>
 To run yourself clone the repo, go inside the folder quickdraw and run "ng build" command without the inverted comma. <br>
-Deployed on AWS server https://kunal.autonise.com .
+
+# Backend
+
+Flask is used for backend. To run, go to the directory containing "inference_server.py" and run $env:FLASK_APP="inference_server.py" then do flask run.
 
 # The model
 
