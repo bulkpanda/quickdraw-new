@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   //SERVER_URL:"https://kunal.autonise.com/api"
-  SERVER_URL:"http://127.0.0.1:5000/api"
+  SERVER_URL:"http://54.200.234.219/api"
 };
