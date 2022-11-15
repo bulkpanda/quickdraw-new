@@ -16,6 +16,7 @@ pip install -r requirements.txt
 
 The built files from 'ng build --prod' are located in dist/quickdraw, can use them directly for deployment. <br>
 To run yourself clone the repo, go inside the folder quickdraw and run "ng build" command without the inverted comma. <br>
+Deployed on AWS server http://54.200.234.219.
 
 # Backend
 
