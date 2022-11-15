@@ -1,0 +1,14 @@
+
+
+body{
+    margin:0;
+    background: #333333;
+}
+.style1{
+    font-family: 'PT Sans', sans-serif;
+    color: white;}
+.onHoverDark:hover { background-color: #222222 !important; color: #BABABA !important;}
+.background1{
+    background: #555555
+    }
+

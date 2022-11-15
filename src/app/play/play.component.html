@@ -1,0 +1,52 @@
+
+
+
+
+
+
+<!-- Call init function when page loads -->
+
+	<div class="container ">
+		
+		<div class="row pt-5">
+			<div class="col-sm-2">
+		
+				<button type= "button" class="btn" style="font-size: 15px; width: 100%; background: #1b0448; color: #fff" routerLink="\home">
+                    <i class="fa fa-arrow-left"></i>  Back     
+                </button>
+			</div>
+
+			<div class="col-lg-7 text-center">
+				<canvas width="384" height="384" style="border:1px solid #000000; background: #FFF" #myCanvas></canvas>
+			</div>		
+			
+			<div class="col-lg-3 ">
+				<div class="row mt-5"></div>
+				<div class="row mt-5"></div>
+				<div class="row mt-5"></div>	
+				
+				<div class="row mt-5">
+					<div class="col text-center">
+						<button class="btn btn-success shadow style1 rounded-pill" style="width:80%; font-size: 20px" (click)="sendimage()">
+							Confirm Selection						
+						</button>
+					</div>
+				</div>
+
+				<div class="row mt-4">
+					<div class="col text-center">
+						<button class="btn btn-danger shadow style1 rounded-pill" style="width:80%; font-size: 20px" (click)="erase()"><!-- call erase function-->
+							Clear Canvas						
+						</button>
+					</div>	
+				</div>	
+			</div>
+		</div>	
+		<div class='row pt-5'>
+			<div class='col-sm-3'></div>
+			<div class="col-sm-5 text-center" style="font-size: 15px; width: 100%; background: #1b0448; color: #fff">
+				 {{object}}
+			</div>
+			<div class='col-sm-4'></div>
+		</div>
+	</div>	

@@ -1,0 +1,11 @@
+
+
+.style1{font-family: 'Dancing Script', cursive;
+    font-family: 'Yellowtail', cursive; background: #fff748;
+    color: #000;}
+
+.style2{font-family: 'Dancing Script', cursive;
+    font-family: 'Yellowtail', cursive; background: #6f4d8e;
+    color: #fff;}
+
+.onHoverDark:hover { background-color: #4d2b6d !important; color: #BABABA !important;}
