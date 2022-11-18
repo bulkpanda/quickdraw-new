@@ -7,6 +7,11 @@ body{
 .style1{
     font-family: 'PT Sans', sans-serif;
     color: white;}
+.style2{                                    
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'PT Sans', sans-serif; */
+    /* font-family: 'Yellowtail', cursive; */
+    color: #fff;}
 .onHoverDark:hover { background-color: #222222 !important; color: #BABABA !important;}
 .background1{
     background: #555555

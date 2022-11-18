@@ -16,11 +16,61 @@
                 </button>
 			</div>
 
-			<div class="col-lg-7 text-center">
-				<canvas width="384" height="384" style="border:1px solid #000000; background: #FFF" #myCanvas></canvas>
+			<div class="col-lg-6 text-center">
+				<div class="row ">
+					<div class="col style2" style="font-size:40px">
+						Draw given objects Inside the Canvas
+					</div>
+				</div>
+				<div class="row py-3">
+					<div class="col text-center">
+						<canvas width="384" height="384" style="border:1px solid #000000; background: #FFF" #myCanvas></canvas>
+					</div>
+				</div>
+				<div class='row pt-2'>
+					<div class='col-sm-4'></div>
+					<div class="col-sm-4 text-center" style="font-size: 15px; width: 100%; background: #1b0448; color: #fff">
+						 {{object}}
+					</div>
+					<div class='col-sm-4'></div>
+				</div>
 			</div>		
+			<!-- column for the buttons-->
 			
-			<div class="col-lg-3 ">
+			<div class="col-lg-3 ml-4">
+				<div class="row pt-4"></div>
+                <div class="row pt-4"></div>
+
+                <!-- Object buttons -->
+                
+                <div class="row pt-1" *ngFor='let ob of objects'>
+					<div class="col text-center">
+						<button type="button" class="btn Play-select" style="width: 70%; font-size: 15px; font-family: 'PT Sans', sans-serif">
+							{{ob.objectName}}						
+						</button>
+					</div>
+				</div>
+			
+
+				<!--Confirm Button-->
+				<div class="row pt-1">
+					<div class="col text-center">
+						<button class="btn Select" style="width: 70%; font-size: 15px; color: #fff; font-family: 'PT Sans', sans-serif" (click)="sendimage()"> 
+							Confirm Selection						
+						</button>
+					</div>
+				</div>
+
+				<!--Clear Button-->
+				<div class="row pt-1">
+					<div class="col text-center">
+						<button class="btn Clear"style="width: 70%; font-size: 15px; color: #fff; font-family: 'PT Sans', sans-serif" (click)="erase()">
+							Clear Canvas						
+						</button>
+					</div>
+				</div>		
+			</div>
+			<!-- <div class="col-lg-3 ">
 				<div class="row mt-5"></div>
 				<div class="row mt-5"></div>
 				<div class="row mt-5"></div>	
@@ -35,18 +85,14 @@
 
 				<div class="row mt-4">
 					<div class="col text-center">
-						<button class="btn btn-danger shadow style1 rounded-pill" style="width:80%; font-size: 20px" (click)="erase()"><!-- call erase function-->
+						<button class="btn btn-danger shadow style1 rounded-pill" style="width:80%; font-size: 20px" (click)="erase()"> <!-- call erase function--><!--
 							Clear Canvas						
 						</button>
 					</div>	
 				</div>	
-			</div>
+			</div> -->
+
+
 		</div>	
-		<div class='row pt-5'>
-			<div class='col-sm-3'></div>
-			<div class="col-sm-5 text-center" style="font-size: 15px; width: 100%; background: #1b0448; color: #fff">
-				 {{object}}
-			</div>
-			<div class='col-sm-4'></div>
-		</div>
+		
 	</div>	

@@ -45,6 +45,8 @@ body{
     padding: 15px 60px 15px 60px;
     text-decoration: none;
   }
+
+
   .Play-Game {
     font-family: Rubik;
     font-size: 28px;
@@ -77,3 +79,129 @@ body{
     padding: 15px 90px 15px 90px;
     text-decoration: none;
   }
+
+  .Data-Set {
+    border-radius: 88px;
+    border: solid 2px #b0dc01;
+    background-color: #1b0448;
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.23px;
+    text-align: center;
+    color: #b0dc01;
+    padding: 5px 10px 5px 10px;
+  }
+
+ .Data-Set:hover {
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #250f51;
+  border-radius: 88px;
+  background-color: #b0dc01;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  } 
+
+
+.Play-select{
+  border-radius: 88px;
+    border: solid 2px #b0dc01;
+    background-color: #1b0448;
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.23px;
+    text-align: center;
+    color: #b0dc01;
+    padding: 5px 10px 5px 10px;
+}
+.Play-select:hover{
+  border-radius: 88px;
+    border: solid 2px #b0dc01;
+    background-color: #1b0448;
+    font-family: Rubik;
+    font-size: 28px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: 0.23px;
+    text-align: center;
+    color: #b0dc01;
+    padding: 5px 10px 5px 10px;
+}
+
+.Select{
+  border-radius: 88px;
+  border: solid 2px #5cb85c;
+  background-color: #5cb85c;
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+.Select:hover{
+  border-radius: 88px;
+  border: solid 2px #3ca83c;
+  background-color: #3ca83c;
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+.Clear{
+  border-radius: 88px;
+  border: solid 2px #F32013;
+  background-color: #F32013;
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}
+.Clear:hover{
+  border-radius: 88px;
+  border: solid 2px #D31013;
+  background-color: #D31013;
+  font-family: Rubik;
+  font-size: 28px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: 0.23px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+}

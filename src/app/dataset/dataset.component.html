@@ -17,8 +17,8 @@
 				
 			</div>
 			<div class="col-lg-6 text-center">
-				<div class="row ">
-					<div class="col style1" style="font-size:40px ">
+				<div class="row pt-3">
+					<div class="col style1" style="font-size:40px">
 						Draw Inside the Canvas
 					</div>
 				</div>
@@ -48,7 +48,7 @@
                 
                 <div class="row pt-1" *ngFor='let ob of objects'>
 					<div class="col text-center">
-						<button type="button" class="btn btn-primary shadow onHoverDark" style="width: 70%; font-size: 15px; color: #fff; font-family: 'PT Sans', sans-serif" (click)="object_select(ob.objectName)" [ngClass]="{active:className==ob.objectName}">
+						<button type="button" class="btn Data-Set" style="width: 70%; font-size: 15px; font-family: 'PT Sans', sans-serif" (click)="object_select(ob.objectName)" [ngClass]="{active:className==ob.objectName}">
 							{{ob.objectName}}						
 						</button>
 					</div>
@@ -58,7 +58,7 @@
 				<!--Confirm Button-->
 				<div class="row pt-1">
 					<div class="col text-center">
-						<button class="btn style2 btn-success shadow" (click)="saveimage()"> 
+						<button class="btn Select" style="width: 70%; font-size: 15px; color: #fff; font-family: 'PT Sans', sans-serif" (click)="saveimage()"> 
 							Confirm Selection						
 						</button>
 					</div>
@@ -67,7 +67,7 @@
 				<!--Clear Button-->
 				<div class="row pt-1">
 					<div class="col text-center">
-						<button class="btn style2 btn-danger shadow" (click)="erase()">
+						<button class="btn Clear"style="width: 70%; font-size: 15px; color: #fff; font-family: 'PT Sans', sans-serif" (click)="erase()">
 							Clear Canvas						
 						</button>
 					</div>
